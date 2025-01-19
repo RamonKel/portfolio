@@ -483,10 +483,13 @@ html, body {
   }
   .webview .about .container .row {
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(1, 1fr);
   }
   .webview .about .container .row .c-photo {
     padding: 10px;
+    height: auto;
+    max-width: 500px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
   }
   .webview .about .container .row .c-description {
     padding: 10px;
@@ -580,18 +583,17 @@ html, body {
   }
   .webview .about .container .row {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: repeat(1, 2fr);
     margin-bottom: 40px;
   }
   .webview .about .container .row .c-photo {
-    display: flex;
-    flex-direction: row;
     justify-content: center;
-    padding: 10px;
+    padding: 5px;
   }
   .webview .about .container .row .c-photo img {
     width: 100%;
-    max-width: 400px;
+    max-width: 490px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   .webview .about .container .row .c-description {
     padding: 10px;
