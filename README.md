@@ -22,6 +22,7 @@ Antes de executar o projeto, certifique-se de ter o Sass instalado na sua máqui
 
 ```bash
 npm install -g sass
+```
 
 ## 🌟 Funcionalidades
 Design responsivo para diversos dispositivos.
