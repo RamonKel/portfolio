@@ -12,6 +12,7 @@ Este projeto tem como objetivo apresentar um resumo visual e informativo das con
 - **HTML**: Estrutura do conteúdo.
 - **CSS/SCSS**: Estilização personalizada.
 - **JavaScript**: Interatividade e dinâmicas.
+- **Media Queries**: Para garantir a responsividade em diversos dispositivos.
 - **Bibliotecas externas**:
   - [Owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/)
   - [jQuery](https://jquery.com/)
